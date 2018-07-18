@@ -12,7 +12,7 @@ Documentation will be added in another update. For now, refer to the
 JSON object in ``index.html`` under ``/static`` for a demonstration
 of customizable attributes.
 
-To install this server, run
+To install this server, you need node.js. Once that's installed, run
 
 ```
 git clone https://github.com/patrickroberts/music-js.git
@@ -20,14 +20,13 @@ cd music-js/static/
 mkdir media
 ```
 
-At this point you should add songs to the ``media`` directory and edit the
-JSON in ``index.html`` to include the songs you want to visualize. After
+At this point you should add a ``music.mp3`` to the ``media`` folder. After
 that, return to the terminal or command prompt and run
 
 ```
 cd ..
 npm install
-node app.js
 ```
 
-then open <http://localhost:8080>.
+then run ``app.cmd`` (or ``node app.js`` if you prefer commandline or
+your OS doesn't support batchfiles) and open <http://localhost:8080>.
