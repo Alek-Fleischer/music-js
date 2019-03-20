@@ -332,6 +332,8 @@
         }
 
         toggle.addEventListener('click', function () {
+            audioanalyser.context.resume() /* we need to recreate the AudioContext now because of chrome's fun autoplay policy */
+
             if(audioanalyser.audio.paused) {
                 audioanalyser.play();
             } else {
