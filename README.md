@@ -15,7 +15,7 @@ of customizable attributes.
 To install this server, you need node.js. Once that's installed, run
 
 ```
-git clone https://github.com/patrickroberts/music-js.git
+git clone https://github.com/Alek-Fleischer/music-js.git
 cd music-js/static/
 mkdir media
 ```
